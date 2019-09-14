@@ -49,12 +49,12 @@ public class Main {
              System.out.println("-------------------LOCAL FOOT PRINTS-------------------");
              System.out.println("+Operating system updates\n" +
                      "+MAC Address\n" +
+                     "+Computer serial number\n"+
                      "+Browser History\n" +
                      "+Operating system version number\n" +
                      "+Language\n" +
                      "+Computer specification (Hardware)\n" +
                      "+Browser Fingerprint");
-
              System.out.println("\n-------------------NETWORK FOOT PRINTS-------------------");
              System.out.println("You Don't have any Network FOOT PRINTS");
 
@@ -62,11 +62,67 @@ public class Main {
              System.out.println("+Email address\n" +
                      "+Date and Time\n" +
                      "+Credit Card / Debit Card / Cash\n");
-
-             System.out.println("\nYOU HAVE TOTAL OF 11 FOOT PRINTS ON THE INTERNET");
-
+             System.out.println("YOU HAVE TOTAL OF 11 FOOT PRINTS ON THE INTERNET");
          }
 
+         else if (computerDevice == 2){
+
+             System.out.println("-------------------LOCAL FOOT PRINTS-------------------");
+             System.out.println("+Operating system updates\n" +
+                     "+MAC Address\n" +
+                     "+Computer serial number\n"+
+                     "+Browser History\n" +
+                     "+Operating system version number\n" +
+                     "+Language\n" +
+                     "+Computer specification (Hardware)\n" +
+                     "+My Apps\n"+
+                     "+Browser Fingerprint");
+             System.out.println("\n-------------------NETWORK FOOT PRINTS-------------------");
+             System.out.println("You Don't have any Network FOOT PRINTS");
+
+             System.out.println("\n-------------------INTERNET FOOT PRINTS-------------------");
+             System.out.println("+Email address\n" +
+                     "+Date and Time\n" +
+                     "+Operating system registration\n"+
+                     "+Credit Card / Debit Card / Cash\n");
+             System.out.println("YOU HAVE TOTAL OF 13 FOOT PRINTS ON THE INTERNET");
+         }
+
+
+         else if (computerDevice == 3){
+
+             System.out.println("-------------------LOCAL FOOT PRINTS-------------------");
+             System.out.println("+Operating system updates\n" +
+                     "+MAC Address\n" +
+                     "+SMS / MMS\n" +
+                     "+IMEI\n" +
+                     "+Flash Cookies, Local Storage and Web Beacons\n" +
+                     "+Computer serial number\n"+
+                     "+Browser History\n" +
+                     "+Operating system version number\n" +
+                     "+Language\n" +
+                     "+Computer specification (Hardware)\n" +
+                     "+My Apps\n"+
+                     "+Browser Fingerprint");
+             System.out.println("\n-------------------NETWORK FOOT PRINTS-------------------");
+
+             System.out.println("You Don't have any Network FOOT PRINTS");
+             System.out.println("+Phone manufacturer registration\n" + "Phone networks");
+
+             System.out.println("\n-------------------INTERNET FOOT PRINTS-------------------");
+             System.out.println("+Email address\n" +
+                     "+Date and Time\n" +
+                     "+My Photos\n" +
+                     "+My Videos\n" +
+                     "+My GeoLocation\n" +
+                     "+Operating system registration\n"+
+                     "+Credit Card / Debit Card / Cash\n");
+             System.out.println("YOU HAVE TOTAL OF 21 FOOT PRINTS ON THE INTERNET");
+         }
+
+         else {
+             System.out.println("Wrong Input Plz Restart This Program...");
+         }
              }
 
 
